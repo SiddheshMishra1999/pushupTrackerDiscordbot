@@ -1,0 +1,30 @@
+{
+  "name": "pushuptrackerdiscordbot",
+  "version": "1.0.0",
+  "description": "Push up tracker discord bot to remind you to do you pushups",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddheshMishra1999/pushupTrackerDiscordbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiddheshMishra1999/pushupTrackerDiscordbot/issues"
+  },
+  "homepage": "https://github.com/SiddheshMishra1999/pushupTrackerDiscordbot#readme",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
